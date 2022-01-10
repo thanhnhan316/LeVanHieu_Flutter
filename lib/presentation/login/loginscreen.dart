@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:levanhieu_project/configs/constanst/app_colors.dart';
+import 'package:levanhieu_project/presentation/home/homescreen.dart';
 import 'package:levanhieu_project/presentation/register/registerscreen.dart';
 import 'package:levanhieu_project/presentation/widget/widget_button.dart';
 import 'package:levanhieu_project/presentation/widget/widget_input.dart';
@@ -40,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Icon(Icons.lock, color: BACKGROUND)),
             SizedBox(height: 3),
             Spacer(flex: 2),
-            WidgetButton(size.width, 50, 'Đăng nhập', BACKGROUND, null),
+            WidgetButton(size.width, 50, 'Đăng nhập', BACKGROUND, HomeScreen()),
             Spacer(flex: 2),
             line(size),
             Spacer(flex: 1),

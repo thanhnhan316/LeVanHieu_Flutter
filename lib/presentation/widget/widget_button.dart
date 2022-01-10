@@ -21,15 +21,15 @@ class WidgetButton extends StatelessWidget {
             width: width,
             height: height,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              gradient: new LinearGradient(
-                  colors: [
-                    BACKGROUND,
-                    Colors.green.withOpacity(0.6),
-                  ],
-                  begin: FractionalOffset.topCenter,
-                  end: FractionalOffset.bottomCenter),
-            ),
+                borderRadius: BorderRadius.circular(50), color: BACKGROUND
+                // gradient: new LinearGradient(
+                //     colors: [
+                //       BACKGROUND,
+                //       Colors.green.withOpacity(0.6),
+                //     ],
+                //     begin: FractionalOffset.topCenter,
+                //     end: FractionalOffset.bottomCenter),
+                ),
             child: Center(
               child: Text(
                 name,
