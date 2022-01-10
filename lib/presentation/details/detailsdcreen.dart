@@ -40,7 +40,7 @@ class _HomeScreenState extends State<DetailsScreen> {
               children: [
                 Container(
                   width: size.width,
-                  height: size.height * 0.7,
+                  height: size.height * 0.75,
                   decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
